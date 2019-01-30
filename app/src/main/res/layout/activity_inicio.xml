@@ -9,7 +9,7 @@
 
     <ImageView
             android:layout_width="164dp"
-            android:layout_height="144dp" app:srcCompat="@mipmap/Perritos"
+            android:layout_height="144dp" app:srcCompat="@mipmap/perritos"
             android:id="@+id/imagenPerrito" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="110dp"
             android:layout_marginStart="110dp" android:layout_marginBottom="42dp"
