@@ -37,7 +37,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         val guate = LatLng(-14.6229, -90.5315)
-        mMap.addMarker(MarkerOptions().position(guate).title("Marker in Sydney"))
+        mMap.addMarker(MarkerOptions().position(guate).title("Marker in Ciudad de Guatemala"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(guate))
     }
 }

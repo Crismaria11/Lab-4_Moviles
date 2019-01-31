@@ -70,7 +70,8 @@ class NavigationDrawer : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
             }
             R.id.nav_direccion -> {
-
+                val intentDireccion = Intent(this, MapsActivity::class.java)
+                startActivity(intentDireccion)
             }
         }
 
