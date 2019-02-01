@@ -21,7 +21,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
-    }
+    }g
 
     /**
      * Manipulates the map once available.
@@ -36,7 +36,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val guate = LatLng(-14.6229, -90.5315)
+        val guate = LatLng(14.6229, -90.5315)
         mMap.addMarker(MarkerOptions().position(guate).title("Marker in Ciudad de Guatemala"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(guate))
     }

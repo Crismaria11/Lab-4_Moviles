@@ -67,6 +67,8 @@ class NavigationDrawer : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
             }
             R.id.nav_proyectos -> {
+                val intentProyectos = Intent(this, ProjectsActivity::class.java)
+                startActivity(intentProyectos)
 
             }
             R.id.nav_direccion -> {
