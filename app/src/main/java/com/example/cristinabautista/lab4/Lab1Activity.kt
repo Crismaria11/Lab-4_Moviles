@@ -11,6 +11,6 @@ class Lab1Activity : AppCompatActivity() {
         setContentView(R.layout.activity_lab1)
 
         val lab2Web = findViewById<WebView>(R.id.webLab2)
-        lab2Web.loadUrl("https://github.com/Crismaria11/Moviles.git")
+        lab2Web.loadUrl("https://github.com/Crismaria11/PlataformasMoviles.git")
     }
 }
