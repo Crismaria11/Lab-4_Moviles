@@ -36,6 +36,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
+        // cambie el nombre de la variable y sus coordenadas, para las de Guatemala
+        // ademas use un API que registre en Google para que se pudiese mostrar el mapa con Guatemala y no en blanco
         val guate = LatLng(14.6229, -90.5315)
         mMap.addMarker(MarkerOptions().position(guate).title("Marker in Ciudad de Guatemala"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(guate))

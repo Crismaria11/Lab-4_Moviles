@@ -10,6 +10,8 @@ class ProjectsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_projects)
+        // Hice que los botones funcionen al presionarlos para que lleven a las actividades las cuales llegaran
+        // a sus respectivos links
 
         val buttonLab2 = findViewById<Button>(R.id.lab2Button)
 

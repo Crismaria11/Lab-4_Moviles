@@ -12,5 +12,6 @@ class Lab2Activity : AppCompatActivity() {
 
         val lab3Web = findViewById<WebView>(R.id.webLab3)
         lab3Web.loadUrl("https://github.com/Crismaria11/Lab-3_Moviles.git")
+        //Con el loadUrl se va al link del repo de Lab # 3
     }
 }

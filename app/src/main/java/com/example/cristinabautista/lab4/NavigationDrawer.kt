@@ -1,3 +1,9 @@
+/*
+Proyecto de Laboratorio 4
+Cristina Bautista
+Carne: 161260
+Esta es la actividad de la pagina de inicio.
+ */
 package com.example.cristinabautista.lab4
 
 import android.content.Intent
@@ -60,6 +66,8 @@ class NavigationDrawer : AppCompatActivity(), NavigationView.OnNavigationItemSel
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
+
+            //Estos los cambie en los xml y tambien puse intents para poder cambiar entre actividades
             R.id.nav_inicio -> {
                 // Handle the camera action
                 val intentInicio = Intent(this, InicioActivity::class.java)
